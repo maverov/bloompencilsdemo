@@ -1,0 +1,81 @@
+/* 00f490 */
+/* #6d8d3c */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  background-image: linear-gradient(to bottom right, #248639, #9ed34f);
+}
+
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+
+.bloom-logo {
+  font-family: "Abril Fatface", cursive;
+  margin-top: 0.3rem;
+  font-size: 1.8rem;
+}
+
+.bloom-logo i:hover {
+  text-decoration: none !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+/* TEXT SHADOW */
+.drop-shadow {
+  text-shadow: 0px 2px 2px rgb(0, 0, 0, 0.153);
+}
+
+.lead {
+  color: #eee;
+  font-size: 1.9rem;
+}
+
+.cta {
+  padding: 10 px 20px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: black !important;
+}
+
+.navbar-dark .navbar-toggler {
+  color: rgba(255, 255, 255, 1);
+  border-color: rgba(255, 255, 255, 1);
+}
+
+.navbar-toggler-icon {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.5rem;
+}
+
+.separator {
+  margin: 40px 0;
+}
+
+.btn-primary {
+  background-color: #6d8d3c;
+  border-color: #6d8d3c;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #9dcc56;
+  border: 1px solid #9dcc56;
+}
+
+@media only screen and (max-width: 500px) {
+  .card-deck {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
